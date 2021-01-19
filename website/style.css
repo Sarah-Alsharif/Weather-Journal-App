@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.background-section{
+    min-height: 100vh;
+    background: url("img/pexels-tommy-haugsveen-1361215.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.text-title {
+   font-family: 'Lato', sans-serif;
+}
+
+/* input style*/
+input{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-bottom: 2px solid whitesmoke !important;
+    border-radius: 0;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+
+#generate{
+    background-color: #ffae07;
+    border-color: #ffae07;
+}
+/* end of input style*/
+
+/* result style */
+.result{
+    width: 80%;
+   
+}
+.weather-container{
+    background: #0000004f;
+    color: white;
+}
+
+#city{
+    font-size: 1.9rem;
+}
+
+#date,
+#temperature,
+#description,
+#feeling{
+    font-size: 1.5rem;   
+}
+
+.temp,
+.content{
+    width: 60%;    
+}
+
+#min-temp,
+#max-temp{
+    font-size: 1.4rem;
+}
+/* end of result style */
+
